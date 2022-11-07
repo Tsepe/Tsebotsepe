@@ -1,0 +1,449 @@
+*
+{
+	color: white;
+}
+/*styling sheet for personal blog*/
+html
+{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+/*setting font,background image and margin of the body in all pages*/
+body
+{
+	font-family:italic;
+	background-image: url(wp1.jpeg);
+	margin-left: 2%;
+	border-radius:15px 50px;
+}
+/*background changing animation*/
+@keyframes mymove
+{
+	from{background-color:#55867b;}
+	to{background-color: #9c7c5c;}
+}
+/*setting properties of the navigation bar/container to navigation links*/	
+header
+{
+	background:#55867b;
+	animation: mymove 2s infinite;
+	height: 100vh;
+	width: 100%;
+	height: 16vh;
+	width: 97.5%;
+	overflow: hidden;
+	opacity: 100%;
+	border-radius:15px 50px;
+}
+/*navigation bar contents*/
+nav
+{
+	width: 20%;
+	display: flex;
+	
+}
+/*stationery bloger name*/
+nav h1
+{
+	font-size:40px; 
+	font-weight: bold;
+	float: left;
+	color:white;
+	font-family: serif;
+	margin-bottom:1%;
+
+}
+/*navigation links*/
+nav ul li div
+{
+	color:white;
+}
+/*navigation links*/
+.buttons ul
+{
+	font-size:30px;
+	display: flex;
+	padding:10px;
+	float: right;
+	color:white;
+	font-family: italic;
+}
+/*facebook link image*/
+.FB img
+{
+	width: 10%;
+}
+/*whatsapp link image*/
+.WP img
+{
+	width: 17%;
+}
+/*instagram link image*/
+.INST img
+{
+	width:10%;
+	float: right;
+}
+/*sketch image on homepage*/
+.MEs img
+{
+	width:132%;
+	opacity:100%;
+	background-color:#55867b;
+	border-radius:50px;
+}
+/*image by the scatch image*/
+.ME2 img
+{
+	width:93%;
+	margin-left: 0%;
+	background-color:#55867b;
+	border-radius:50px;
+}
+/*container for main 2 images on homepage*/
+.ownpicsHP
+{
+	display:flex;
+	justify-content:space-between;
+}
+/*"welcome to Tsepe Tsebo..." text between 2 images on the main homepage*/
+.welcome
+{
+	float:right;
+	color:black;
+	font-family: serif;
+	font-size:115%;
+	width:100%;
+	margin-left: 10%;
+	padding: 0% 1% 0% 1%;
+	
+}
+/*bottom sticking section of all pages also known as footer, link image container*/
+footer
+{
+	background-color:#55867b;
+	animation: mymove 2s infinite;
+	display: flex;
+	justify-content: space-between;
+	width: 97.5%;
+	height:10vh;
+	opacity:70%;
+	margin-top: 5%
+	border-radius:15px 50px;
+}
+/*footer text with copyrights texts*/
+.copyright
+{
+	float: left;
+	display: flex;
+	animation: mymove 2s infinite;
+	background-color:#55867b;
+	opacity: 70%;
+	color: black;
+	width: 97.5%;
+	border-radius:15px 50px;
+}
+/*h1 gaming text on hobbies page*/
+.gamingh1
+{
+	font-size:200%;
+	color: blue;
+	background-color:#55867b;
+	font-family: serif;
+}
+/*gaming paragraph and gaming controler container*/
+.gaming
+{
+	display: flex;
+	background-color:#55867b;
+	width:97.5%;
+	justify-content:space-around;
+	animation: mymove 2s infinite;
+	border-radius:15px 50px;
+}
+/*gaming paragraph*/
+.gameaticle
+{
+	color:white;
+	font-family: all;
+	font-size: 125%;
+}
+/*scaling gaming controler*/
+#controler
+{
+	width:50%;
+}
+/*h1 music text on hobbies page*/
+.musich1
+{
+	font-size:200%;
+	color: white;
+	background-color:#55867b;
+	font-family: serif;
+}
+/*musician and music paragraph container*/
+.music
+{
+	display: flex;
+	background-color:#55867b;
+	width:97.5%;
+	justify-content:space-between;
+	animation: mymove 2s infinite;
+	border-radius:15px 50px;
+}
+/*music paragraph*/
+.musicaticle
+{
+	color:black;
+	font-family: all;
+	font-size: 125%;
+	margin-left: 2%;
+}
+/*musician iamge scaling*/
+#nipsey
+{
+	width: 70%;
+	margin-left: 27%;
+	border-radius:50px;
+}
+/*"about Tsepe Tsebo" text on about page*/
+.abouth1
+{
+	font-size:200%;
+	color: black;
+	background-color:#55867b;
+	font-family: serif;
+	width:20%;
+}
+/*bloger image and about the bloger paragraph container*/
+.about
+{
+	display: flex;
+	background-color:#55867b;
+	width:97.5%;
+	justify-content:space-between;
+	animation: mymove 2s infinite;
+	border-radius:15px 50px;
+}
+/*about the bloger paragraph*/
+.aboutaticle
+{
+	color:black;
+	font-family: all;
+	font-size: 125%;
+}
+/*bloger image scaling and placing*/
+#meabout1
+{
+	width:30%;
+	margin-left: 5%;
+	
+}
+/*bloger attributes section on about page*/
+aside
+{
+	color:black;
+	font-family: all;
+	background-color:#55867b;
+	width: 97.5%;
+	opacity: 70%;
+	animation: mymove 2s infinite;
+	font-size: 125%;
+	border-radius:15px 50px;
+
+}
+/*h1 text styling on bloger attributes section*/
+aside h1
+{
+	font-weight:bold;
+	font-size:200%;
+	font-family: serif;
+}
+/*interests text on backet list page*/
+.interestsh1
+{
+	font-size:200%;
+	color: black;
+	font-family: serif;
+	margin: -10%;
+	background-color:#55867b;
+}
+/*2 cities image and favourite cities paragraph on backets list page*/
+.interests
+{
+	display: flex;
+	background-color:#55867b;
+	width:97.5%;
+	justify-content:space-between;
+	animation: mymove 2s infinite;
+	border-radius:15px 50px;
+}
+/*favourite cities paragraph on backets list page*/
+.interestsaticle
+{
+	color:black;
+	font-family: all;
+	font-size: 125%;
+}
+/*scaling of dubai image/left image on bucket list page favorite cities*/
+#interests11
+{
+	width:30%;
+	border-radius:50px;
+	
+}
+/*scaling and positioning of the New york image on favourite cities*/
+#nyc
+{
+	width:30%;
+	margin-left: 5%;
+	border-radius:50px;
+}
+/*Dubai and New york City texts container on top of 2 images and a paragraph on bucket list page*/
+.dubai
+{
+	display: flex;
+	color: black;
+	font-family: serif;
+	justify-content: space-around;
+	background-color:#55867b;
+	width: 97.5%;
+	animation: mymove 2s infinite;
+	border-radius:15px 50px;
+}
+/*position on new york city text*/
+.york
+{
+	margin-left: 20%;
+}
+/*container of first 3 images under galary of Tsepe Tsebo*/
+.galary
+{
+	font-size:200%;
+	color: black;
+	font-family: serif;
+	background-color:#55867b;
+	animation: mymove 2s infinite;
+	border-radius:15px 50px;
+}
+/*coner rounding and scaling of 3 images under Tsepe Tsebo galary*/
+.galary1
+{
+	display: flex;
+	width:97.5%;
+	justify-content:space-between;
+
+}
+#galaryimg1
+{
+	width:31%;
+	border:5px solid black;
+	border-radius:50px;
+}
+#galaryimg2
+{
+	width:31%;
+	border:5px solid black;
+	border-radius:50px;
+}
+#galaryimg3
+{
+	width:31%;
+	border:5px solid black;
+	border-radius:50px;
+}
+/*container of second 3 images under galary of Tsepe Tsebo*/
+.galary2
+{
+	display: flex;
+	width:97.5%;
+	justify-content:space-between;
+	margin-top: 1%;
+	border-radius:15px 50px;
+}
+/*coner rounding and scaling of 3 images under Tsepe Tsebo galary*/
+#galaryimg4
+{
+	width:31%;
+	border:5px solid black;
+	border-radius:50px;
+}
+#galaryimg5
+{
+	width:31%;
+	border:5px solid black;
+	border-radius:50px;
+}
+#galaryimg6
+{
+	width:31%;
+	border:5px solid black;
+	border-radius:50px;
+}
+/*styling of "set foot on mars"text on bucket list page*/
+.marsh1
+{
+	font-size:200%;
+	color: black;
+	background-color:#55867b;
+	font-family: serif;
+	width:20%;
+}
+/*mars image and mars dream travel paragraph container*/
+.mars
+{
+	display: flex;
+	background-color:#55867b;
+	width:97.5%;
+	justify-content:space-between;
+	animation: mymove 2s infinite;
+	border-radius:15px 50px;
+}
+/*mars dream travel paragraph*/
+.marsaticle
+{
+	color:black;
+	font-family: all;
+	font-size: 125%;
+	margin-left: 3%;
+}
+/*mars image scaling and placing*/
+#marsimg
+{
+	width:50%;
+	border-radius:50px;	
+}
+/*styling of charity text on bucket list page*/
+.charityh1
+{
+	font-size:200%;
+	color: black;
+	font-family: serif;
+	width:20%;
+}
+/*drugs image and drugs charity paragraph container*/
+.charity
+{
+	display: flex;
+	background-color:#55867b;
+	width:97.5%;
+	justify-content:space-between;
+	animation: mymove 2s infinite;
+	border-radius:15px 50px;
+}
+/*charity paragraph*/
+.charityaticle
+{
+	color:black;
+	font-family: all;
+	font-size: 125%;
+	margin-left: 3%;
+}
+/*drug image scaling and placing*/
+#drugimg
+{
+	width:50%;
+	margin-left: 5%;
+	border-radius:50px;
+}
